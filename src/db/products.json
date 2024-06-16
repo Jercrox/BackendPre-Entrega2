@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Alfajor de chocolate",
+        "description": "Delicioso alfajor relleno de dulce de leche y cubierto de chocolate.",
+        "code": "1203",
+        "price": 25,
+        "status": true,
+        "stock": 20,
+        "category": "Dulces",
+        "thumbnail": [],
+        "pid": 1
+    },
+    {
+        "title": "Chocolate",
+        "description": "Tableta de chocolate negro de alta calidad.",
+        "code": "1204",
+        "price": 30,
+        "status": true,
+        "stock": 15,
+        "category": "Dulces",
+        "thumbnail": [],
+        "pid": 2
+    },
+    {
+        "title": "Caramelos surtidos",
+        "description": "Paquete de caramelos de varios sabores: frutilla, limón, naranja y menta.",
+        "code": "1205",
+        "price": 10,
+        "status": true,
+        "stock": 10,
+        "category": "Dulces",
+        "thumbnail": [],
+        "pid": 3
+    },
+    {
+        "title": "Gomitas de ositos",
+        "description": "Gomitas suaves con forma de ositos, ideales para disfrutar como snack.",
+        "code": "1206",
+        "price": 15,
+        "status": true,
+        "stock": 18,
+        "category": "Dulces",
+        "thumbnail": [],
+        "pid": 4
+    },
+    {
+        "title": "Papas fritas",
+        "description": "Bolsa de papas fritas crujientes y sabrosas.",
+        "code": "1207",
+        "price": 20,
+        "status": true,
+        "stock": 25,
+        "category": "Snacks",
+        "thumbnail": [],
+        "pid": 5
+    },
+    {
+        "title": "Galletas de vainilla",
+        "description": "Galletas crujientes de vainilla, perfectas para acompañar con café.",
+        "code": "1208",
+        "price": 15,
+        "status": true,
+        "stock": 30,
+        "category": "Dulces",
+        "thumbnail": [],
+        "pid": 6
+    },
+    {
+        "title": "Chicles de menta",
+        "description": "Chicles frescos con sabor a menta.",
+        "code": "1209",
+        "price": 5,
+        "status": true,
+        "stock": 50,
+        "category": "Dulces",
+        "thumbnail": [],
+        "pid": 7
+    },
+    {
+        "title": "Palitos de queso",
+        "description": "Palitos de queso crujientes, ideales para un snack rápido.",
+        "code": "1210",
+        "price": 12,
+        "status": true,
+        "stock": 40,
+        "category": "Snacks",
+        "thumbnail": [],
+        "pid": 8
+    }
+]

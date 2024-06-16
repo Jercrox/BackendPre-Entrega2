@@ -1,0 +1,150 @@
+body {
+	font-family: 'Georgia', serif;
+	background-color: #98dbe6;
+	color: #333;
+}
+
+
+html {
+	background-color: #98dbe6;
+}
+
+div {
+	font-family: 'Georgia', serif;
+	margin: 20px;
+}
+
+.title {
+	font-family: 'Pacifico', cursive;
+	color: #222;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	font-size: 2.5em;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+}
+
+.title::before, .title::after {
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 5px;
+	background-color: #007bff;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.title::before {
+	left: -60px;
+}
+
+.title::after {
+	right: -60px;
+}
+
+.cards-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 20px;
+	justify-content: center;
+}
+
+.card {
+	background-color: #e9f5fb;
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+
+.card:hover {
+	transform: rotate(5deg);
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+	background-color: #d1ecf1;
+}
+
+.card h2 {
+	margin-top: 0;
+	color: #007bff;
+	font-size: 1.5em;
+}
+
+.card p {
+	margin-bottom: 10px;
+	line-height: 1.6;
+	font-size: 1.1em;
+}
+
+.no-products {
+	color: #d9534f;
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 20px;
+}
+
+.product-form {
+	font-family: 'Georgia', serif;
+	max-width: 700px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+	flex: 1;
+}
+
+.form-control {
+	padding: 12px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+.btn-primary {
+	background-color: #28a745;
+	border-color: #28a745;
+	color: white;
+	font-family: 'Georgia', serif;
+	font-size: 1em;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+	background-color: #218838;
+	transform: scale(1.1);
+}
+
+.btn-secondary {
+	background-color: #dc3545;
+	border-color: #dc3545;
+	color: white;
+	font-family: 'Georgia', serif;
+	font-size: 1em;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-secondary:hover {
+	background-color: #c82333;
+	transform: scale(1.1);
+}
